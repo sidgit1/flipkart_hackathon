@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        
+    </head>
+    <body>
+
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Vigilantes</h1>
+                    <form>
+                    <div class="glyphIconMethod">
+                    <label for="product">Product name</label>
+                   
+                   <select id="Product_name">
+                       <option value = "Shoes">Shoes</option>
+                       <option value = "Shirts">Shirts</option>
+                       <option value = "Jeans">Jeans</option>
+                       <option value = "Suits">Suits</option>
+                   </select> 
+                    
+                    <label for="gender">Gender</label>
+                    <select id="Gender">
+                        <option value = "Male">Male</option>
+                        <option value = "Female">Female</option>
+                    </select>
+                    
+                    <!-- <label for="price">Price</label>
+                    <select id="Price">
+                        <option value = "Under 1000">Under 1000</option>
+                        <option value = "1000-2000">1000-2000</option>
+                        <option value = "2000-5000">2000-5000</option>
+                        <option value = "Above 5000">Above 5000</option>
+                    </select> -->
+                    
+                    <label for="timeline">Timeline</label>
+                    <select id="Timeline">
+                        <option value = "Current">Current</option>
+                        <option value = "Future">Future</option>
+                    </select>
+                    
+                    <label for="trends">Trends</label>
+                    <select id="Trends">
+                        <option value = "Trending">Trending</option>
+                        <option value = "Lagging">Lagging</option>
+                    </select>
+                    </div>
+                    
+                    <button id="button_submit">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+      <!--   <script src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js'></script>
+             <script src='/js/animation.js'></script> -->
+
+        <!-- Loading square for squar.red network --> 
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+            $(window).on("load",function(){
+                $(".loader-wrapper").fadeOut("slow");
+            });
+        </script>
+        <script src="./js/test.js"></script>
+    </body>
+</html>
